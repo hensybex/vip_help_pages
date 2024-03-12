@@ -1,6 +1,6 @@
 {
-    "name": "test_minimal_web",
-    "short_name": "test_minimal_web",
+    "name": "mobile_release",
+    "short_name": "mobile_release",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
