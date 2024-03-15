@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -15,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/vip_help_pages/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -24,54 +23,32 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="mobile_release">
+  <meta name="apple-mobile-web-app-title" content="basic_flutter_app">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>VipHelp</title>
+  <title>basic_flutter_app</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
-    // This script decides whether to use the HTML or CanvasKit renderer
-    const wasmSupported = (() => {
-      try {
-        if (typeof WebAssembly === "object" && typeof WebAssembly.instantiate === "function") {
-          const module = new WebAssembly.Module(Uint8Array.of(0x0, 0x61, 0x73, 0x6d, 0x01, 0x00, 0x00, 0x00));
-          if (module instanceof WebAssembly.Module)
-            return new WebAssembly.Instance(module) instanceof WebAssembly.Instance;
-        }
-      } catch (e) {
-      }
-      return false;
-    })();
-
-    if (!wasmSupported) {
-      window.flutterWebRenderer = 'html';
-    } else {
-      window.flutterWebRenderer = 'canvaskit';
-    }
-  </script>
-
-  <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "396421699";
+    const serviceWorkerVersion = "3075875332";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
-
 <body>
   <script>
-    window.addEventListener('load', function (ev) {
+    window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function (engineInitializer) {
-          engineInitializer.initializeEngine().then(function (appRunner) {
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
             appRunner.runApp();
           });
         }
@@ -79,5 +56,4 @@
     });
   </script>
 </body>
-
 </html>
