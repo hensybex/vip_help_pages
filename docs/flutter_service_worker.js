@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"main.dart.js": "e672760776dccdcc0eeddd3e908b3f82",
+const RESOURCES = {"main.dart.js": "b3697f0e1c02e3032faad0f928437526",
 "assets/assets/icons/car_doctor.png": "161545500693b513401aecc1e3530e52",
 "assets/assets/icons/home.png": "f314b297037a3beeb7cdb8c009a5fafc",
 "assets/assets/icons/pin_staff.png": "1f15d7340da4dbddf009c227e64ddbee",
@@ -61,8 +61,8 @@ const RESOURCES = {"main.dart.js": "e672760776dccdcc0eeddd3e908b3f82",
 "canvaskit/skwasm.wasm": "e42815763c5d05bba43f9d0337fa7d84",
 "canvaskit/skwasm.js.symbols": "741d50ffba71f89345996b0aa8426af8",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
-"index.html": "b63414b2d1cfb17eb8eb86591d836074",
-"/": "b63414b2d1cfb17eb8eb86591d836074",
+"index.html": "1c566b12dde2ecc1bf9d72a67325384c",
+"/": "1c566b12dde2ecc1bf9d72a67325384c",
 "version.json": "397843f9054663615800eef8eab6c62c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
