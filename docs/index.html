@@ -47,7 +47,8 @@
     // JavaScript function for URL manipulation
     function updateUrlWithoutReloading(newUrl) {
       var finalUrl = "#" + newUrl
-      window.location.href = finalUrl; // This causes the page to reload at the new URL
+      history.pushState({}, '', finalUrl);
+      window.dispatchEvent(new CustomEvent("flutterNavigation", { detail: newUrl }));
     }
   </script>
 </body>
